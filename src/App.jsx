@@ -64,8 +64,8 @@ function App() {
               {
                 startTime: "05:00",
                 endTime: "06:00",
-                category: "Design",
-                title: "Task Management",
+                category: "Personal Goals & Challenges",
+                title: "Let's Do Some Grind",
                 color: "#ff69b4",
               },
             ],
