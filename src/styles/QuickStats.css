@@ -1,0 +1,39 @@
+.Qstats-title{
+  border-bottom: 1px solid #03ffe6;
+  font-size: 2rem;
+  font-weight: 800;
+  text-shadow: 0 0 3px #03ffe6;
+  color: #e0f7ff;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  width: 100%;
+  width: 21rem;
+  height: 8rem; 
+  color: #e0f7ff;
+  font-size: 1rem;
+  margin: 0.4rem 0 0.4rem;
+  line-height: 1.5;
+  text-shadow: 0 0 1.5px #03ffe6;
+}
+
+.quick-stats{
+  background-color: #0e0e12;
+  border-radius: 1.5rem;
+  color: #f1f1f1;
+  box-shadow: 0 0 5px rgba(0, 255, 170, 0.1);
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 1.25rem 2rem;
+  background: radial-gradient(circle at top left, #11141a, #0e0e12);
+  box-shadow: 0 0 5px #00ffe7aa;
+  box-shadow: 0 0 5px rgba(0, 255, 170, 0.25);
+  width: 100%;
+}

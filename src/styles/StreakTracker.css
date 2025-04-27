@@ -1,0 +1,103 @@
+/* StreakTracker.css */
+
+.streak-tracker {
+  background-color: #0e0e12;
+  border-radius: 1.5rem;
+  padding: 1.25rem;
+  color: #f1f1f1;
+  box-shadow: 0 0 5px rgba(0, 255, 170, 0.25);
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 1.8rem 2rem;
+  background: radial-gradient(circle at top left, #11141a, #0e0e12);
+  /* box-shadow: 0 0 10px #00ffe7aa; */
+}
+
+
+.streak-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.streak-title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-shadow: 0 0 3px #03ffe6;
+  color: #e0f7ff;
+  margin: 0;
+}
+
+
+.streak-description p {
+  color: #e0f7ff;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 1.5rem;
+  line-height: 1.4;
+  text-shadow: 0 0 1.5px #03ffe6;
+}
+
+
+.streak-icon .flame-icon {
+  width: 32px;
+  height: 36px;
+  filter: drop-shadow(0 0 10px #00ffc3);
+}
+
+.streak-week {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.day {
+  color: #111;
+  font-weight: 600;
+  font-size: 1.1rem;
+  width: 2rem;
+  height: 3rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #00ffe7aa;
+  transition: transform 0.2s ease;
+}
+
+.day:hover {
+  transform: scale(1.05);
+}
+
+/* @media (max-width: 500px) {
+  .day {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+} */
+
+.day {
+  background-color: #ff9e41;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  color: #111;
+  font-weight: 800;
+  transition: all 0.3s ease;
+}
+
+.day:hover {
+  transform: scale(1.1);
+}
+
+.streak-week {
+  margin-bottom: 1rem;
+}
+
+.active{
+  background-color: #03ffe6;
+  color: #0e0e12;
+  box-shadow: 0 0 10px #00ffe7aa;
+}

@@ -1,0 +1,96 @@
+.guide-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.guide-box {
+  background-image: url("/guide-background-img%20copy.avif");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  color: snow;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  animation: slideIn 0.4s ease-out;
+}
+
+.guide-box img {
+  height: 4rem;
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.guide-box h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.guide-box p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.guide-box ul {
+  /* list-style: none; */
+  padding: 0;
+  text-align: start;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.guide-box li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.guide-box button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.guide-box button:hover {
+  background: #0056b3;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

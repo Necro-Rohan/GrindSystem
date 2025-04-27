@@ -1,0 +1,177 @@
+.todays-tasks{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 0;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+.todays-task-icon-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 1.25rem;
+  padding-left: 2.5rem;
+}
+
+.clock-icon{
+  border: 0.5px inset #03ffe6;
+  padding: 0.5rem;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todays-task-title{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-bottom: 0.34rem;
+  
+}
+
+.todays-task-title h3{
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 3px #2ff4f7;
+}
+
+.todays-task-title p{
+  margin: 4px 0 0 0;
+  font-size: 0.9rem;
+  color: #e0f7ff;
+  text-shadow: 0 0 3px #2ff4f7;
+}
+
+.todays-task-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  margin: 0;
+  padding: 1rem 2.5rem;
+  scroll-behavior: smooth;
+}
+
+.todays-task-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 1rem;
+  min-width: 280px;
+  width: 280px;
+  border: 2px solid #333;
+  border-radius: 16px;
+  box-shadow: 0 0 10px #000;
+  background: linear-gradient(0deg, #111624, #060a09);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.todays-task-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+
+.todays-task-cards:hover {
+  transform: scale(1.05);
+  border: 2.5px inset #03ffe6;
+}
+
+.todays-task-cards h4 {
+  letter-spacing: 1px;
+  color: #e0f7ff;
+  text-shadow: 0 0 2px #03ffe6;
+  text-align: start;
+  margin-bottom: 5px;
+  font: 0.9em 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px solid #03ffe6;
+  margin-bottom: 0.6rem;
+  padding-bottom: 3px;
+}
+
+.todays-task-cards h3{
+  color: #e0f7ff;
+  text-shadow: 0 0 1.5px #03ffe6;
+}
+
+.todays-task-cards p {
+  margin: 4px 0;
+  color: #e0f7ff;
+  margin-bottom: 0.7rem;
+}
+
+.todays-task-cards div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.todays-task-progress{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.todays-task-progress-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff7cc;
+  box-shadow: 0 0 3px #03ffe6;
+}
+
+.todays-task-progress-action{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #e0f7ff;
+  text-shadow: 0 0 1.5px #03ffe6;
+}
+
+.empty-state-img{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: rgb(123, 134, 157);
+  /* padding: 10px 40px 10px; */
+  margin-left: 1.25rem;
+}
+
+.empty-state-img img{
+  max-width: 180px;
+  margin-bottom: 0.5rem;
+  vertical-align: middle;
+  border-style: none;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.empty-title{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 2px #2ff4f7;
+}

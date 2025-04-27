@@ -1,0 +1,77 @@
+.current-task-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: linear-gradient(137deg, #111624, #060a09);
+  width: 98.5%;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 255, 170, 0.25);
+}
+
+.current-task-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 80%;
+  padding: 10px;
+}
+
+.current-task-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+}
+
+.current-task-title{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+  color: #ffffff;
+  text-shadow: 0 0 3px #2ff4f7;
+  width: 95%;
+  padding: 3px;
+}
+.current-task-icon{
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 5px;
+}
+
+span{
+  font-size: 20px;
+  color: #2ff4f7;
+  text-shadow: 0 0 3px #f1f1f1;
+}
+
+.current-task-xp-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff7cc;
+  box-shadow: 0 0 3px #03ffe6;
+}
+
+.current-task-xp{
+  font-size: 20px;
+  color: #2ff4f7;
+  text-shadow: 0 0 3px #f1f1f1;
+}
+
+.current-task-arrow{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 5px; 
+}

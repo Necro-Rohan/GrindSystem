@@ -1,0 +1,45 @@
+.panel {
+  width: 98.5%;
+  /* max-width: 1000px; */
+  height: 120px;
+  background: linear-gradient(0deg, #111624, #060a09);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  color: #f1f1f1;
+  box-shadow: 0 0 5px rgba(0, 255, 170, 0.25);
+}
+
+.text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+  color: #f1f1f1;
+  text-shadow: 0 0 2px #03ffe6;
+  letter-spacing: 0.175rem;
+}
+
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+.date {
+  font-size: 18px;
+  color: #00f0ff;
+}
+
+.calendar-icon {
+  margin-left: auto;
+  border: 2px solid #00f0ff;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
