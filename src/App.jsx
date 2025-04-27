@@ -13,7 +13,7 @@ import MoneyHabits from "./pages/MoneyHabits";
 import StayConnected from "./pages/StayConnected";
 import MentalCheck from "./pages/MentalCheck";
 import PersonalGoalsChallenges from "./pages/PersonalGoalsChallenges";
-import FirstTimeGuide from "./pages/firstTimeGuide";
+import FirstTimeGuide from "./pages/FirstTimeGuide";
 import "./index.css";
 
 
